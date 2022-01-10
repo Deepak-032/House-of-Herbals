@@ -1,0 +1,124 @@
+.navbar_container{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+    background-color: #F8F2EC;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0 12px 0;
+}
+.navbar_logo{
+    object-fit: contain;
+    height: 40px;
+}
+.navbar_right{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 2px;
+}
+.navbar_right>li>a{
+    width: 100%;
+    display: inline-block;
+    text-decoration: none !important;
+    text-transform: capitalize;
+    font-family: 'Suranna', sans-serif;
+    font-size: 22px;
+    color: #A36A43;
+    padding: 0 15px;
+    line-height: 1.2;
+}
+.navbar_right>li:not(:nth-child(4)){
+    border-right: 2px solid #9E9E9E;
+}
+.navbar_right>li{
+    list-style: none;
+}
+.hamburgerMenu{
+    position: absolute;
+    right: 0;
+    font-size: 32px;
+}
+.btn_contact{
+    background-color: transparent;
+    border-radius: 60px;
+    border: 2px solid #BE8F58;
+    padding: 6px 24px;
+    color: #847C74;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn_contact:hover,
+.btn_contact_footer:hover,
+.btn_white_bg:hover,
+.btn_white_bg_2:hover{
+    background-color: #BE8F58;
+    border-color: #BE8F58;
+    color: #FFF !important;
+    transition: .5s;
+}
+.navbar_right a:hover{
+    color: #847C74 !important;
+}
+@media (max-width: 991px) {
+    .navbar_right{
+        /* align-items: flex-start; */
+        padding-left: 0 !important;
+        flex-direction: column;
+        position: fixed;
+        top: 80px;
+        width: 100%;
+        height: 100%;
+        right: -100%;
+        z-index: 3;
+        background-color: #FFFF;
+        transition: all 0.5s ease;
+    }
+    .navbar_right.active{
+        right: 0;
+        background-color: #FFFF;
+        padding-top: 30px;
+        overflow-x: hidden;
+    }
+    .navbar{
+        padding-bottom: 15px;
+    }
+    .navbar_container{
+        position: static;
+        top: 0;
+    }
+    .navbar_logo{
+        height: 50px;
+    }
+    .nav_mobile{
+        margin: 0 12px;
+        justify-content: center;
+    }
+    .navbar_right>li>a{
+        text-decoration: none;
+        font-size: 26px;
+        color: #434343;
+        display: block;
+        transition: 0.3s;
+    }
+    .navbar_right>li{
+        font-size: 26px;
+        color: #434343;
+        padding: 10px;
+    }
+    .nav_style_changer_mobile{
+        position: sticky !important;
+        top: 0;
+    }
+    .hamburgerMenu{
+        display: block !important;
+    }
+    .navbar_right>li:not(:nth-child(4)){
+        border-right: none;
+    }
+}

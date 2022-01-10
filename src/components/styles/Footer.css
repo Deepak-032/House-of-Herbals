@@ -1,0 +1,46 @@
+.page_end_img{
+    background-image: url("../../../public/assets/beautiful-spa-composition-brown-wall-space-text.png");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 411px;
+}
+.btn_contact_footer{
+    background-color: transparent;
+    border-radius: 60px;
+    border: 2px solid #FFF;
+    padding: 6px 24px;
+    color: #FFF;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.main_footer{
+    background-color: #312512;
+}
+.footer{
+    padding-bottom: 22px;
+}
+.footer>div:not(:last-child){
+    padding-right: 24px;
+}
+.footer_headings{
+    color: #FFF;
+    padding-bottom: 18px;
+}
+.footer_headings~div{
+    color: #FFFF;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+.footer_headings~div>a{
+    color: #FFFF;
+    font-size: 14px;
+    text-decoration: none;
+}
+.social_icon{
+    width: 15px;
+    height: 15px;
+    object-fit: contain;
+    margin-right: 13px;
+}

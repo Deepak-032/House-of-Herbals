@@ -1,0 +1,17 @@
+.carousel-indicators [data-bs-target]{
+    border-radius: 50px !important;
+    border: 0px solid;
+    height: 12px;
+    width: 12px;
+}
+.carousel-indicators .active{
+    background-color: #B59878;
+}
+.banner_btn_position{
+    position: absolute;
+    z-index: 1;
+    bottom: 21%;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+}
