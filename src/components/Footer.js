@@ -30,16 +30,21 @@ function Footer({ displayHandler }) {
                         </div>
                         <div className="col-6 col-lg">
                             <div className="footer_headings">Social Media Links</div>
-                            <div><a target="blank" href="https://www.instagram.com/houseofherbals.hoh/"><i class="bi bi-instagram social_icon"></i>Instagram</a></div>
-                            <div><a target="blank" href="https://www.facebook.com/houseofherbals.hoh"><i class="bi bi-facebook social_icon"></i>Facebook</a></div>
+                            <div><a target="blank" href="https://www.instagram.com/houseofherbals.hoh/"><i className="bi bi-instagram social_icon"></i>Instagram</a></div>
+                            <div><a target="blank" href="https://www.facebook.com/houseofherbals.hoh"><i className="bi bi-facebook social_icon"></i>Facebook</a></div>
                             <div><a target="blank" href="https://meesho.com/hoh"><img className="social_icon" src="/assets/meesho.png" alt="" />Meesho</a></div>
-                            <div><a target="blank" href="http://"><i class="bi bi-basket social_icon"></i>Shop</a></div>
+                            <div><a target="blank" href="http://shop.houseofherbals.in"><i className="bi bi-shop social_icon"></i>Shop</a></div>
                         </div>
                         <div className="col-6 col-lg">
                             <div className="footer_headings">Products</div>
                             <div><a href="#aloveraSection">Aloevera Products</a></div>
                             <div><a href="#avocadoSection">Avocado Products</a></div>
                             <div><a href="#cocoaSection">Cocoa Products</a></div>
+                        </div>
+                        <div className="col-6 col-lg fit_content">
+                            <div className="footer_headings">Information</div>
+                            <div><a href="https://shop.houseofherbals.in/index.php?route=information/information&information_id=5">Terms & Conditions</a></div>
+                            <div><a href="https://shop.houseofherbals.in/index.php?route=information/information&information_id=3">Privacy Policy</a></div>
                         </div>
                     </div>
                 </div>

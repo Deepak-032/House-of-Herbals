@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
     return (
         <div className='container' id='know_more'>
-            <div className='row m_t_max'>
+            <div className='row m_t_max mt_mobile'>
                 <div className='col-lg-5 col-12 me-4 position-relative'>
                     <img src='/assets/left_picture.jpg' alt="" className='w-100' />
                     <div className='box_element_1 d-none d-lg-block box_element'></div>

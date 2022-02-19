@@ -19,10 +19,10 @@
     opacity: 0.45;
 }
 .box_element_1{
-    right: -15%;
+    height: 72%;
+    right: -14%;
     top: 20%;
-    width: 90%;
-    height:75%;
+    width: 86%;
 }
 .box_element_2{
     left: 17%;
@@ -82,6 +82,15 @@ p{
 a:hover{
     color: #A36A43 !important;
 }
+.our_story .carousel-control-prev,
+.our_story .carousel-control-next,
+.our_story .carousel-indicators{
+    display: none;
+}
+#cocoa .view_all_products,
+#alovera .view_all_products{
+    display: none;
+}
 @media screen and (max-width: 991px){
     .about_content{
         margin-left: auto;
@@ -135,5 +144,8 @@ a:hover{
     }
     .margin_left{
         margin-left: 0.75rem;
+    }
+    .mt_mobile{
+        margin-top: 2.7rem !important;
     }
 }

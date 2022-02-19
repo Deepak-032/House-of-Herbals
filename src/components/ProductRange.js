@@ -16,18 +16,18 @@ function ProductRange({ name, products, href }) {
         <div className='m_t_max' id={href}>
             <div className='container'>
                 <h1 className='heading text-center mb-5'>{name} Products Range</h1>
-                <div className='row'>
+                <div className='row justify-content-lg-center'>
                     {products?.slice(0, viewAll ? undefined : 4).map(product =>
-                        <Card className='col-lg-3 col-6'>
+                        <Card key={product.name} className='col-lg-3 col-6'>
                             <Card.Img variant="top" src={`/assets/${product.src}`} />
                             <Card.Body>
-                                <p className='card_heading'>{product.name}</p>
+                                <a href={product.href} style={{ textDecoration: "none" }}><p className='card_heading'>{product.name}</p></a>
                                 <a href={product.href} className='btn_contact'>Buy Now &#8377;{product.price}</a>
                             </Card.Body>
                         </Card>
                     )}
                 </div>
-                <button className='btn_white_bg_2 btn_white_bg_3 mt-4' onClick={viewHandler}>{viewAll ? <>View Less</> : <>View More</>}</button>
+                <button className='view_all_products btn_white_bg_2 btn_white_bg_3 mt-4' onClick={viewHandler}>{viewAll ? <>View Less</> : <>View More</>}</button>
             </div>
         </div>
     )

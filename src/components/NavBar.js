@@ -42,6 +42,7 @@ function NavBar({ displayHandler }) {
                             <li><a href="#aloveraSection" onClick={closeNav} >Aloe Vera Products</a></li>
                             <li><a href="#avocadoSection" onClick={closeNav} >Avocado Products</a></li>
                             <li><a href="#cocoaSection" onClick={closeNav} >Cocoa Products</a></li>
+                            <li><a href="#our_story_section" className="d-lg-none" onClick={closeNav} >About Us</a></li>
                             <li><a href="# " className="d-lg-none" onClick={displayHandler} >Contact Us</a></li>
                         </ul>
                         <button className="btn_contact d-none d-lg-block" onClick={displayHandler}>
