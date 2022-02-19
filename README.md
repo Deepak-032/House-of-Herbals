@@ -25,7 +25,7 @@ You need to have node installed on your device to run this web app.
 
 1. Clone the repo using
     ```sh
-   git clone https://github.com/Deepak-032/Upchaar
+   git clone https://github.com/Deepak-032/House-of-Herbals
    ```
 
 2. Install NPM packages
